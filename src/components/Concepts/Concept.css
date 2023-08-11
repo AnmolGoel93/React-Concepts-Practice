@@ -1,0 +1,38 @@
+.concept {
+  list-style-type: none;
+  box-shadow: 0 2px 20px rgba(234, 78, 240, 0.2);
+  background: linear-gradient(#250358, #440c66);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  width: 33%;
+  padding: 2rem;
+  border-radius: 6px;
+  transition: all 0.2s;
+}
+
+.concept:hover {
+  transform: translateY(-2px);
+  transition: transform 0.2s;
+  box-shadow: 0 2px 30px rgba(234, 78, 240, 0.4);
+}
+
+.concept p {
+  text-align: center;
+  margin: 0;
+  font-size: 0.85rem;
+}
+
+.concept h2 {
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 1rem;
+}
+
+.concept img {
+  height: 5rem;
+  width: 6rem;
+  object-fit: contain;
+}
